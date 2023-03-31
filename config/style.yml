@@ -1,0 +1,21 @@
+Style/BlockComments:
+  Enabled: false
+
+Style/CommentedKeyword:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Exclude:
+    - db/migrate/*.rb
+
+Style/HashSyntax:
+  EnforcedStyle: no_mixed_keys
+  EnforcedShorthandSyntax: never
+  Exclude:
+    - config/routes.rb
+
+Style/RedundantLineContinuation:
+  Enabled: false

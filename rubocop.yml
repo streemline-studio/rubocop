@@ -1,0 +1,18 @@
+require:
+  - rubocop-performance
+  - rubocop-rspec
+  - rubocop-rails
+
+inherit_from:
+  - config/layout.yml
+  - config/metrics.yml
+  - config/rails.yml
+  - config/rspec.yml
+  - config/style.yml
+
+AllCops:
+  Exclude:
+    - bin/*
+    - vendor/bundle/**/*
+    - tmp/**/*
+  SuggestExtensions: false

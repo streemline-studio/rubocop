@@ -1,0 +1,21 @@
+Metrics:
+  Exclude:
+    - db/migrate/*.rb
+
+Metrics/AbcSize:
+  CountRepeatedAttributes: false
+  Max: 25
+
+Metrics/BlockLength:
+  Exclude:
+    - Rakefile
+    - '**/*.rake'
+    - spec/**/*.rb
+    - db/migrate/*.rb
+    - config/**/**
+    - app/blueprints/**/**
+  AllowedMethods:
+    - included
+
+Metrics/MethodLength:
+  Max: 20

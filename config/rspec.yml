@@ -1,0 +1,4 @@
+RSpec/MultipleMemoizedHelpers:
+  Max: 12
+RSpec/DescribeClass:
+  Enabled: false
