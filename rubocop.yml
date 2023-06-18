@@ -15,4 +15,6 @@ AllCops:
     - bin/*
     - vendor/bundle/**/*
     - tmp/**/*
+    - db/schema.rb
+    - bin/**/*
   SuggestExtensions: false
