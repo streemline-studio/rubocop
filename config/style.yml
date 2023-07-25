@@ -19,3 +19,6 @@ Style/HashSyntax:
 
 Style/RedundantLineContinuation:
   Enabled: false
+
+Style/SingleArgumentDig:
+  Enabled: false
