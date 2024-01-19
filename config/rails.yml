@@ -1,2 +1,5 @@
 Rails/DeprecatedActiveModelErrorsMethods:
   Enabled: false
+
+Rails/FindEach:
+  Enabled: false
