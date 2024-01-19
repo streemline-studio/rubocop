@@ -22,3 +22,6 @@ Style/RedundantLineContinuation:
 
 Style/SingleArgumentDig:
   Enabled: false
+
+Style/ArgumentsForwarding:
+  Enabled: false
