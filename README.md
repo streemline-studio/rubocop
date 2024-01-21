@@ -7,7 +7,7 @@ One ruleset to rule them all. The goal is to unify code style across all studio 
 Edit gemfile:
 ```ruby
 # Gemfile
-gem 'rubocop-studio', github: 'studio-69/rubocop', require: false, branch: :main
+gem 'rubocop-studio', github: 'streemline-studio/rubocop', require: false, branch: :main
 ```
 
 Install bundle:
