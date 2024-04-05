@@ -18,10 +18,3 @@ AllCops:
     - db/schema.rb
     - bin/**/*
   SuggestExtensions: false
-
-Rails/UnknownEnv:
-  Environments:
-    - production
-    - development
-    - test
-    - demo
