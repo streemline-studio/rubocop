@@ -1,8 +1,11 @@
-RSpec/MultipleMemoizedHelpers:
-  Max: 12
-  
 RSpec/DescribeClass:
   Enabled: false
+
+RSpec/ExampleLength:
+  Max: 15
+
+RSpec/MultipleMemoizedHelpers:
+  Max: 12
 
 FactoryBot/ExcessiveCreateList:
   MaxAmount: 20

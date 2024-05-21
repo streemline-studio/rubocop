@@ -1,3 +1,6 @@
+Style/ArgumentsForwarding:
+  Enabled: false
+
 Style/BlockComments:
   Enabled: false
 
@@ -17,11 +20,17 @@ Style/HashSyntax:
   Exclude:
     - config/routes.rb
 
+Style/Lambda:
+  Enabled: false
+
+Style/MapToHash:
+  Enabled: false
+
+Style/NumberedParametersLimit:
+  Max: 2
+
 Style/RedundantLineContinuation:
   Enabled: false
 
 Style/SingleArgumentDig:
-  Enabled: false
-
-Style/ArgumentsForwarding:
   Enabled: false
